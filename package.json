@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "2.17.0"
+    "@prisma/client": "2.17.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "prisma": "^2.17.0"
   },
   "scripts": {
-    "dev": "node ./script.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:seed": "node ./script.js",
+    "db:push": "npx prisma db push --preview-feature --accept-data-loss"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -17,5 +24,13 @@
   "main": "script.js",
   "keywords": [],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxtruong6/prisma-docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hxtruong6/prisma-docker/issues"
+  },
+  "homepage": "https://github.com/hxtruong6/prisma-docker#readme",
   "description": ""
 }
