@@ -1,0 +1,43 @@
+dependencies:
+  '@prisma/client': 2.17.0_prisma@2.17.0
+devDependencies:
+  prisma: 2.17.0
+lockfileVersion: 5.2
+packages:
+  /@prisma/client/2.17.0_prisma@2.17.0:
+    dependencies:
+      '@prisma/engines-version': 2.17.0-35.3c463ebd78b1d21d8fdacdd27899e280cf686223
+      prisma: 2.17.0
+    dev: false
+    engines:
+      node: '>=10.4'
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-tzsBxtx9J1epOGCiBeXur1tEz81UIdWg2G/HpDmflXKcv/MJb+KCWSKSsEW49eXcvVwRgxNyxLoCO6CwvjQKcg==
+  /@prisma/engines-version/2.17.0-35.3c463ebd78b1d21d8fdacdd27899e280cf686223:
+    dev: false
+    resolution:
+      integrity: sha512-9idv5blqPUlvUPVT48eVi3T0RS/NBklUcjrla3jWyV8AYfB2BdaG/Zci7H5ajyYLnfZZHG9tBpP0LcveQCFH8A==
+  /@prisma/engines/2.17.0-35.3c463ebd78b1d21d8fdacdd27899e280cf686223:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-FKjVD6NYbGiQhwas3hA2uMpNchz+Mf3tv5qA8Ci9cAkKHGqt3jWjjUAK9juVBqeOcv4OPimQYMrkRX6SvaxBjg==
+  /prisma/2.17.0:
+    dependencies:
+      '@prisma/engines': 2.17.0-35.3c463ebd78b1d21d8fdacdd27899e280cf686223
+    dev: true
+    engines:
+      node: '>=10.4'
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-NypJI7OCXCfDkRKubbVb3nmPeRJ1SjQfg6QAwK06KsreBZl1F96rFz2iB2bl4kIrhLAbIySBjwUJlG87Jsxt7g==
+specifiers:
+  '@prisma/client': 2.17.0
+  prisma: ^2.17.0
